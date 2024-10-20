@@ -1,0 +1,67 @@
+.boleta-table,
+.detalle-table,
+.items-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.boleta-table th,
+.detalle-table th,
+.items-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  padding: 8px;
+}
+
+.boleta-table td,
+.detalle-table td,
+.items-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.boleta-table tr:nth-child(even),
+.detalle-table tr:nth-child(even),
+.items-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.boleta-table tr:hover,
+.detalle-table tr:hover,
+.items-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.detalle-boleta {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.buttondetail {
+    background-color: #007bff8f;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    padding: 8px 12px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+  }
+  
+
+  .buttondetail:hover {
+    background-color: #007bff8f;
+    transform: scale(1.05);
+  }
+  
+  .detalle-boleta {
+    border: 1px solid #007bff8f;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #f8f9fa;/
+  }

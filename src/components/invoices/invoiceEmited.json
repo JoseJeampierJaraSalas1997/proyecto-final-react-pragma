@@ -1,0 +1,33 @@
+{
+    "documentos": [
+      {
+        "documento_identificacion": {
+          "COD_TIP_CPE": "03",
+          "NUM_SERIE_CPE": "B004",
+          "NUM_CORRE_CPE": "00000031"
+        },
+        "montos": {
+          "MNT_TOT_GRAVADO": "1000.00",
+          "MNT_TOT_TRIB_IGV": "180.00",
+          "MNT_TOT": "1180.00"
+        },
+        "url_boleta": "https://www.ejemplo.com/boletas/B004-00000031.pdf",
+        "correo_envio": "mifact@outlook.com"
+      },
+      {
+        "documento_identificacion": {
+          "COD_TIP_CPE": "03",
+          "NUM_SERIE_CPE": "B005",
+          "NUM_CORRE_CPE": "00000032"
+        },
+        "montos": {
+          "MNT_TOT_GRAVADO": "2000.00",
+          "MNT_TOT_TRIB_IGV": "360.00",
+          "MNT_TOT": "2360.00"
+        },
+        "url_boleta": "https://www.ejemplo.com/boletas/B005-00000032.pdf",
+        "correo_envio": "cliente@outlook.com"
+      }
+    ]
+  }
+  
